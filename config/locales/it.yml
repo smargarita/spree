@@ -1,35 +1,35 @@
 --- 
 it: 
   'no': "No"
-  'yes': "Yes"
-  5_biggest_spenders: "5 Biggest Spenders"
-  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A copy of all mail be sent to the following addresses
-  abbreviation: Abbreviation
-  access_denied: "Access Denied"        
+  'yes': "Sì"
+  5_biggest_spenders: "I 5 maggiori clienti"
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: Una copia di tutte le mail verrà inviata ai seguenti indirizzi
+  abbreviation: Abbreviazione
+  access_denied: "Accesso negato"        
   account: Conto
-  account_updated: "Account updated!"        
+  account_updated: "Conto aggiornato!"        
   action: Azione
   actions: 
-    cancel: Cancelare
-    create: Inserire
+    cancel: Cancellare
+    create: Creare
     destroy: Cancellare
     list: Elenco
     listing: Inserzione
     new: Nuova
-    update: Salva
-  active: "Active"
+    update: Aggiorna
+  active: "Attivo"
   activerecord: 
     attributes: 
       address: 
-        address1: Address
-        address2: "Address (contd.)"
-        city: City
-        country: "Country"
-        first_name: "First Name"
-        last_name: "Last Name"
-        phone: Phone
-        state: "State"
-        zipcode: "Zip Code"
+        address1: Indirizzo
+        address2: "Indirizzo (seconda parte)"
+        city: Città
+        country: "Paese"
+        first_name: "Nome"
+        last_name: "Cognome"
+        phone: Telefono
+        state: "Stato/Provincia"
+        zipcode: "CAP"
       checkout:
         bill_address:
           address1: "Billing address street"
