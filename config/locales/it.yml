@@ -10,11 +10,11 @@ it:
   account_updated: "Conto aggiornato!"        
   action: Azione
   actions: 
-    cancel: Cancellare
+    cancel: Annullare
     create: Creare
     destroy: Cancellare
     list: Elenco
-    listing: Inserzione
+    listing: InserzioneAAA
     new: Nuova
     update: Aggiorna
   active: "Attivo"
@@ -32,179 +32,179 @@ it:
         zipcode: "CAP"
       checkout:
         bill_address:
-          address1: "Billing address street"
-          city: "Billing address city"
-          firstname: "Billing address first name"
-          lastname: "Billing address last name"
-          phone: "Billing address phone"
-          state: "Billing address state"
-          zipcode: "Billing address zipcode"
+          address1: "Fatturazione: indirizzo"
+          city: "Fatturazione: Città"
+          firstname: "Fatturazione: nome"
+          lastname: "Fatturazione: cognome"
+          phone: "Fatturazione: telefono"
+          state: "Fatturazione: stato"
+          zipcode: "Fatturazioner: CAP"
         ship_address:
-          address1: "Shipping address street"
-          city: "Shipping address city"
-          firstname: "Shipping address first name"
-          lastname: "Shipping address last name"
-          phone: "Shipping address phone"
-          state: "Shipping address state"
-          zipcode: "Shipping address zipcode"
+          address1: "Spedizione: indirizzo"
+          city: "Spedizione: città"
+          firstname: "Spedizione: nome"
+          lastname: "Spedizione: cognome"
+          phone: "Spedizione: telefono"
+          state: "Spedizione: stato"
+          zipcode: "Spedizione: CAP"
       country: 
         iso: ISO
         iso3: ISO3
-        iso_name: "ISO Name"
-        name: Name
-        numcode: "ISO Code"
+        iso_name: "Nome ISO"
+        name: Nome
+        numcode: "Codice ISO"
       creditcard: 
-        cc_type: Type
-        month: Month
-        number: Number
-        verification_value: "Verification Value"
-        year: Year
+        cc_type: Tipo
+        month: Mese
+        number: Numero
+        verification_value: "Verification ValueAAA"
+        year: Anno
       inventory_unit: 
-        state: State
+        state: Stato
       line_item: 
-        price: Price
-        quantity: Quantity
+        price: Prezzo
+        quantity: Quantità
       order: 
-        checkout_complete: "Checkout Complete"
-        ip_address: "IP Address"
-        item_total: "Item Total"
-        number: Number
-        special_instructions: "Special Instructions"
-        state: State
-        total: Total
+        checkout_complete: "Checkout CompleteAAA"
+        ip_address: "Indirizzo IP"
+        item_total: "Item TotalAAA"
+        number: Numero
+        special_instructions: "Istruzioni particolari"
+        state: Stato
+        total: Totale
       product: 
-        available_on: "Available On"
-        cost_price: "Cost Price"
-        description: Description
-        master_price: "Master Price"
-        name: Name
-        on_hand: "On Hande"
-        shipping_category: "Shipping Category"
-        tax_category: "Tax Category"
+        available_on: "Disponibile il"
+        cost_price: "Cost PriceAAA"
+        description: Descrizione
+        master_price: "Master PriceAAA"
+        name: Nome
+        on_hand: "On HandeAAA"
+        shipping_category: "Categoria di spedizione"
+        tax_category: "Tax CategoryAAA"
       product_group:
-        name: "Name"
-        product_count: "Product count"
-        product_scopes: "Product scopes"
-        products: "Products"
+        name: "Nome"
+        product_count: "Product countAAA"
+        product_scopes: "Product scopesAAA"
+        products: "Prodotti"
         url: "URL"
       product_scope:
-        arguments: "Arguments"
-        description: "Description"
+        arguments: "Argomenti"
+        description: "Descrizione"
       property: 
-        name: Name
-        presentation: Presentation
+        name: Nome
+        presentation: Presentazione
       prototype: 
-        name: Name
+        name: Nome
       return_authorization:
-        amount: Amount
+        amount: Ammontare
       role: 
-        name: Name
+        name: Nome
       state: 
-        abbr: Abbreviation
-        name: Name
+        abbr: Abbreviazione
+        name: Nome
       tax_category: 
-        description: Description
-        name: Name
+        description: Descrizione
+        name: Nome
       tax_rate: 
-        amount: Rate        
+        amount: RateAAA        
       taxon: 
-        name: Name
+        name: Nome
         permalink: Permalink
-        position: Position
+        position: Posizione
       taxonomy: 
-        name: Name
+        name: Nome
       user: 
-        email: Email
+        email: E-mail
       variant: 
-        cost_price: "Cost Price"
-        depth: Depth
-        height: Height
-        price: Price
-        sku: SKU
-        weight: Weight
-        width: Width
+        cost_price: "Cost PriceAAA"
+        depth: Profondità
+        height: Altezza
+        price: Prezzo
+        sku: SKUAAA
+        weight: Peso
+        width: Larghezza
       zone: 
-        description: Description
-        name: Name
+        description: Descrizione
+        name: Nome
     models: 
       address: 
-        one: Address
-        other: Addresses
+        one: Indirizzo
+        other: Indirizzi
       cheque_payment:
-        one: Cheque Payment
-        other: Cheque Payments
+        one: Cheque PaymentAAA
+        other: Cheque PaymentsAAA
       country: 
-        one: Country
-        other: Countries
+        one: Paese
+        other: Paesi
       creditcard: 
-        one: "Credit Card"
-        other: "Credit Cards"
+        one: "Carta di credito"
+        other: "Carte di credito"
       creditcard_payment: 
-        one: "Credit Card Payment"
-        other: "Credit Card Payments"
+        one: "Credit Card PaymentAAA"
+        other: "Credit Card PaymentsAAA"
       creditcard_txn: 
-        one: "Credit Card Transaction"
-        other: "Credit Card Transactions"
+        one: "Credit Card TransactionAAA"
+        other: "Credit Card TransactionsAAA"
       inventory_unit: 
-        one: "Inventory Unit"
-        other: "Inventory Units"
+        one: "Inventory UnitAAA"
+        other: "Inventory UnitsAAA"
       line_item: 
-        one: "Line Item"
-        other: "Line Items"
+        one: "Line ItemAAA"
+        other: "Line ItemsAAA"
       order: 
-        one: Order
-        other: Orders
+        one: Ordine
+        other: Ordini
       payment: 
-        one: Payment
-        other: Payments
+        one: Pagamento
+        other: Pagamenti
       product: 
-        one: Product
-        other: Products
+        one: Prodotto
+        other: Prodotti
       product_group:
-        one: "Product group"
-        other: "Product groups"
+        one: "Gruppo di prodotti"
+        other: "Gruppi di prodotti"
       property: 
-        one: Property
-        other: Properties
+        one: Proprietà
+        other: Proprietà
       prototype: 
-        one: Prototype
-        other: Prototypes
+        one: Prototipo
+        other: Prototipi
       return_authorization:
-        one: Return Authorization
-        other: Return Authorizations
+        one: Return AuthorizationAAA
+        other: Return AuthorizationsAAA
       role: 
-        one: Roles
-        other: Roles
+        one: Ruolo
+        other: Ruoli
       shipment:
-        one: Shipment
-        other: Shipments
+        one: Spedizione
+        other: Spedizioni
       shipping_category: 
-        one: "Shipping Category"
-        other: "Shipping Categories"
+        one: "Shipping CategoryAAA"
+        other: "Shipping CategoriesAAA"
       state: 
-        one: State
-        other: States
+        one: Stato
+        other: Stati
       tax_category: 
-        one: "Tax Category"
-        other: "Tax Categories"
+        one: "Tax CategoryAAA"
+        other: "Tax CategoriesAAA"
       tax_rate: 
-        one: "Tax Rate"
-        other: "Tax Rates"        
+        one: "Tax RateAAA"
+        other: "Tax RatesAAA"        
       taxon: 
-        one: Taxon
-        other: Taxons
+        one: TaxonAAA
+        other: TaxonsAAA
       taxonomy: 
-        one: Taxonomy
-        other: Taxonomies
+        one: TaxonomyAAA
+        other: TaxonomiesAAA
       user: 
-        one: User
-        other: Users
+        one: Utente
+        other: Utenti
       variant: 
-        one: Variant
-        other: Variants
+        one: Variante
+        other: Varianti
       zone: 
-        one: Zone
-        other: Zones
+        one: Zona
+        other: Zone
   add: Add
   add_category: "Aggiungi categoria"
   add_country: "Add Country"
